@@ -1,0 +1,508 @@
+DEBUG] Target alias resources has already been registered. Overwriting!
+DEBUG] using engine_version: 8d74aff0de80ace5c5041021ceec2544f987291d built at repo_version: release_1.6.0rc3-4-gb5d11de
+DEBUG] loading native engine python module from: /var/folders/mk/bz4w0f3505190h3n4x21_jlc0000gn/T/tmpWOB1o2
+fatal: Not a git repository (or any of the parent directories): .git
+DEBUG] ProjectTree ignore_patterns: ['.*/', '/dist/']
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 0 basenames, 0 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] spec_roots are: OrderedSet([SingleAddress(directory=u'my_pkg', name=u'my_pkg')])
+DEBUG] changed_request is: ChangedRequest(changes_since=None, diffspec=None, include_dependees='none', fast=False)
+DEBUG] target_roots are: TargetRoots(specs=OrderedSet([SingleAddress(directory=u'my_pkg', name=u'my_pkg')]))
+DEBUG] build_graph is: <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: OrderedSet([SingleAddress(directory=u'my_pkg', name=u'my_pkg')])
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Initializing ShardedLmdb at root "/Users/Nakis/.cache/pants/lmdb_store/files"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/0"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/0"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/0"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/1"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/1"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/1"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/2"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/2"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/2"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/3"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/3"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/3"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/4"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/4"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/4"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/5"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/5"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/5"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/6"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/6"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/6"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/7"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/7"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/7"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/8"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/8"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/8"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/9"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/9"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/9"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/a"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/a"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/a"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/b"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/b"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/b"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/c"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/c"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/c"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/d"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/d"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/d"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/e"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/e"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/e"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/files/f"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/files/f"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/files/f"
+DEBUG] Initializing ShardedLmdb at root "/Users/Nakis/.cache/pants/lmdb_store/directories"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/0"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/0"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/0"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/1"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/1"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/1"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/2"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/2"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/2"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/3"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/3"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/3"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/4"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/4"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/4"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/5"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/5"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/5"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/6"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/6"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/6"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/7"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/7"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/7"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/8"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/8"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/8"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/9"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/9"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/9"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/a"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/a"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/a"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/b"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/b"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/b"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/c"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/c"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/c"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/d"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/d"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/d"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/e"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/e"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/e"
+DEBUG] Making ShardedLmdb env for "/Users/Nakis/.cache/pants/lmdb_store/directories/f"
+DEBUG] Making ShardedLmdb content database for "/Users/Nakis/.cache/pants/lmdb_store/directories/f"
+DEBUG] Making ShardedLmdb lease database for "/Users/Nakis/.cache/pants/lmdb_store/directories/f"
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'my_pkg', name=u'my_pkg'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.050897 seconds. there are 36 total nodes.
+DEBUG] address_mapper is: <pants.engine.legacy.address_mapper.LegacyAddressMapper object at 0x11252b8d0>
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'binary', name=u'binary'),)), =BuildFileAddresses) completed.
+DEBUG] computed 1 nodes in 0.001912 seconds. there are 41 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: OrderedSet([SingleAddress(directory=u'my_pkg', name=u'my_pkg')])
+DEBUG] Launching 1 roots.
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'my_pkg', name=u'my_pkg'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000181 seconds. there are 41 total nodes.
+fatal: Not a git repository (or any of the parent directories): .git
+
+22:34:13 00:00 [main]
+               (To run a reporting server: ./pants server)
+22:34:13 00:00   [setup]
+22:34:14 00:01     [parse]fatal: Not a git repository (or any of the parent directories): .git
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'benchmark-caliper-0.5')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'benchmark-caliper-0.5'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.001415 seconds. there are 47 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'benchmark-java-allocation-instrumenter-2.1')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'benchmark-java-allocation-instrumenter-2.1'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000980 seconds. there are 53 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'nailgun-server')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'nailgun-server'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.001145 seconds. there are 59 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'javac-plugin-dep')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'javac-plugin-dep'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000995 seconds. there are 65 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalac-plugin-dep')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalac-plugin-dep'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.001075 seconds. there are 71 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalafix')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalafix'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000950 seconds. there are 77 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalafmt')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalafmt'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000948 seconds. there are 83 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'antlr-3.4')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'antlr-3.4'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000934 seconds. there are 89 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'antlr-4')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'antlr-4'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000980 seconds. there are 95 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'antlr-3.1.3')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'antlr-3.1.3'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000977 seconds. there are 101 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'wire-runtime')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'wire-runtime'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000933 seconds. there are 107 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'wire-compiler')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'wire-compiler'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000848 seconds. there are 113 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'jacoco-agent')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'jacoco-agent'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000912 seconds. there are 119 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'jacoco-cli')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'jacoco-cli'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000920 seconds. there are 125 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'jar-tool')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'jar-tool'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000984 seconds. there are 131 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'javac')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'javac'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000968 seconds. there are 137 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'junit_library')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'junit_library'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000915 seconds. there are 143 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'junit')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'junit'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000894 seconds. there are 149 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'checkstyle')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'checkstyle'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000925 seconds. there are 155 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'dependency-update-checker')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'dependency-update-checker'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000989 seconds. there are 161 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'pants-runner')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'pants-runner'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.001017 seconds. there are 167 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'xalan')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'xalan'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000913 seconds. there are 173 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalac_2_10')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalac_2_10'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000940 seconds. there are 179 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scala-repl_2_10')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scala-repl_2_10'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.001959 seconds. there are 185 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalastyle_2_10')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalastyle_2_10'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000907 seconds. there are 191 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalac_2_11')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalac_2_11'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000945 seconds. there are 197 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scala-repl_2_11')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scala-repl_2_11'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000951 seconds. there are 203 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalastyle_2_11')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalastyle_2_11'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000934 seconds. there are 209 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalac_2_12')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalac_2_12'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000971 seconds. there are 215 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scala-repl_2_12')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scala-repl_2_12'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000905 seconds. there are 221 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalastyle_2_12')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalastyle_2_12'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000915 seconds. there are 227 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalac')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalac'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000952 seconds. there are 233 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scala-repl')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scala-repl'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000921 seconds. there are 239 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'scalastyle')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'scalastyle'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000911 seconds. there are 245 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'jarjar')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'jarjar'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000930 seconds. there are 251 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'cobertura-instrument')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'cobertura-instrument'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000991 seconds. there are 257 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'cobertura-run')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'cobertura-run'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000854 seconds. there are 263 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'cobertura-merge')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'cobertura-merge'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000914 seconds. there are 269 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'cobertura-report')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'cobertura-report'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000897 seconds. there are 275 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'zinc')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'zinc'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000865 seconds. there are 281 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'compiler-bridge')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'compiler-bridge'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000982 seconds. there are 287 total nodes.
+DEBUG] Injecting specs to <pants.engine.legacy.graph.LegacyBuildGraph object at 0x1102a01d0>: [SingleAddress(directory=u'', name=u'compiler-interface')]
+DEBUG] Launching 1 roots.
+DEBUG] glob converted to regex: Glob { glob: "**/.*", re: "(?-u)^(?:/?|.*/)\\.[^/]*$", opts: GlobOptions { case_insensitive: false, literal_separator: true }, tokens: Tokens([RecursivePrefix, Literal('.'), ZeroOrMore]) }
+DEBUG] built glob set; 1 literals, 2 basenames, 1 extensions, 0 prefixes, 0 suffixes, 0 required extensions, 1 regexes
+DEBUG] Root Select(Collection(dependencies=(SingleAddress(directory=u'', name=u'compiler-interface'),)), =TransitiveHydratedTargets) completed.
+DEBUG] computed 1 nodes in 0.000977 seconds. there are 293 total nodes.
+
+               Executing tasks in goals: jvm-platform-validate -> bootstrap -> imports -> unpack-jars -> deferred-sources -> gen -> resolve -> resources -> pyprep -> compile -> binaryDEBUG] acquiring lock: <pants.process.lock.OwnerPrintingInterProcessFileLock object at 0x112544e50>
+
+22:34:14 00:01   [jvm-platform-validate]
+22:34:14 00:01     [jvm-platform-validate]
+22:34:14 00:01   [bootstrap]
+22:34:14 00:01     [substitute-aliased-targets]
+                   expanding my_pkg:my_pkg
+22:34:14 00:01     [jar-dependency-management]DEBUG] None is not a valid distribution because: The specified binary path is invalid: /usr/local/opt/python@2/libexec/bin
+DEBUG] None is not a valid distribution because: Failed to locate the java executable, Distribution('/usr/local/sbin', minimum_version=None, maximum_version=None jdk=False) does not appear to be a valid JRE distribution
+DEBUG] None is not a valid distribution because: Failed to locate the java executable, Distribution('/usr/local/bin', minimum_version=None, maximum_version=None jdk=False) does not appear to be a valid JRE distribution
+DEBUG] Located Distribution(u'/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin', minimum_version=None, maximum_version=None jdk=False) for constraints: minimum_version None, maximum_version None, jdk False
+
+22:34:15 00:02     [bootstrap-jvm-tools]
+22:34:15 00:02     [provide-tools-jar]
+22:34:15 00:02   [imports]
+22:34:15 00:02     [ivy-imports]
+22:34:15 00:02   [unpack-jars]
+22:34:15 00:02     [unpack-jars]
+22:34:15 00:02   [deferred-sources]
+22:34:15 00:02     [deferred-sources]
+22:34:15 00:02   [gen]
+22:34:15 00:02     [antlr-java]
+22:34:15 00:02     [antlr-py]
+22:34:15 00:02     [jaxb]
+22:34:15 00:02     [protoc]
+22:34:15 00:02     [ragel]
+22:34:15 00:02     [thrift-java]
+22:34:15 00:02     [thrift-py]
+22:34:15 00:02     [wire]
+22:34:15 00:02   [resolve]
+22:34:15 00:02     [ivy]
+22:34:15 00:02     [coursier]
+22:34:15 00:02   [resources]
+22:34:15 00:02     [prepare]
+22:34:15 00:02     [services]
+22:34:15 00:02   [pyprep]
+22:34:15 00:02     [interpreter]
+22:34:15 00:02     [build-local-dists]
+22:34:15 00:02     [requirements]
+                   pants_backend_python_tasks_resolve_requirements_ResolveRequirements will read from local artifact cache at /Users/Nakis/sandbox/pex_example/.cache/a1fadcb5f8fb2e579f786184a7c7f0662e111136
+22:34:15 00:02       [cache] 
+                   No cached artifacts for 1 target.
+                   Invalidated 1 target.
+                     Dumping requirement: PythonRequirement(requests==2.18.4)
+                     Dumping requirement: PythonRequirement(shapely==1.6.4.post1)DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Starting new HTTPS connection (1): pypi.python.org
+DEBUG] https://pypi.python.org:443 "HEAD /simple/requests/ HTTP/1.1" 301 0
+DEBUG] Starting new HTTPS connection (1): pypi.org
+DEBUG] https://pypi.org:443 "HEAD /simple/requests/ HTTP/1.1" 200 0
+DEBUG] https://pypi.org:443 "GET /simple/requests/ HTTP/1.1" 200 16346
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Resetting dropped connection: pypi.python.org
+DEBUG] https://pypi.python.org:443 "HEAD /simple/shapely/ HTTP/1.1" 301 0
+DEBUG] https://pypi.org:443 "HEAD /simple/shapely/ HTTP/1.1" 200 0
+DEBUG] https://pypi.org:443 "GET /simple/shapely/ HTTP/1.1" 200 35266
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Resetting dropped connection: pypi.python.org
+DEBUG] https://pypi.python.org:443 "HEAD /simple/certifi/ HTTP/1.1" 301 0
+DEBUG] https://pypi.org:443 "HEAD /simple/certifi/ HTTP/1.1" 200 0
+DEBUG] https://pypi.org:443 "GET /simple/certifi/ HTTP/1.1" 200 4567
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Resetting dropped connection: pypi.python.org
+DEBUG] https://pypi.python.org:443 "HEAD /simple/chardet/ HTTP/1.1" 301 0
+DEBUG] https://pypi.org:443 "HEAD /simple/chardet/ HTTP/1.1" 200 0
+DEBUG] https://pypi.org:443 "GET /simple/chardet/ HTTP/1.1" 200 2028
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Resetting dropped connection: pypi.python.org
+DEBUG] https://pypi.python.org:443 "HEAD /simple/idna/ HTTP/1.1" 301 0
+DEBUG] https://pypi.org:443 "HEAD /simple/idna/ HTTP/1.1" 200 0
+DEBUG] https://pypi.org:443 "GET /simple/idna/ HTTP/1.1" 200 2452
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Resetting dropped connection: pypi.python.org
+DEBUG] https://pypi.python.org:443 "HEAD /simple/urllib3/ HTTP/1.1" 301 0
+DEBUG] https://pypi.org:443 "HEAD /simple/urllib3/ HTTP/1.1" 200 0
+DEBUG] https://pypi.org:443 "GET /simple/urllib3/ HTTP/1.1" 200 5899
+DEBUG] Starting new HTTPS connection (1): files.pythonhosted.org
+DEBUG] https://files.pythonhosted.org:443 "GET /packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl HTTP/1.1" 200 132332
+DEBUG] https://files.pythonhosted.org:443 "GET /packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl HTTP/1.1" 200 133356
+DEBUG] https://files.pythonhosted.org:443 "GET /packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl HTTP/1.1" 200 150367
+DEBUG] https://files.pythonhosted.org:443 "GET /packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl HTTP/1.1" 200 56450
+
+                     Dumping distribution: .../Shapely-1.6.4.post1-cp27-cp27m-macosx_10_9_intel.macosx_10_9_x86_64.whl
+                     Dumping distribution: .../urllib3-1.22-py2.py3-none-any.whl
+                     Dumping distribution: .../chardet-3.0.4-py2.py3-none-any.whl
+                     Dumping distribution: .../requests-2.18.4-py2.py3-none-any.whl
+                     Dumping distribution: .../certifi-2018.4.16-py2.py3-none-any.whl
+                     Dumping distribution: .../idna-2.6-py2.py3-none-any.whl
+22:34:18 00:05     [sources]
+22:34:18 00:05   [compile]
+22:34:18 00:05     [compile-jvm-prep-command]
+22:34:18 00:05       [jvm_prep_command]
+22:34:18 00:05     [compile-prep-command]
+22:34:18 00:05     [compile]
+22:34:18 00:05     [zinc]
+22:34:18 00:05     [jvm-dep-check]
+22:34:18 00:05   [binary]
+22:34:18 00:05     [binary-jvm-prep-command]
+22:34:18 00:05       [jvm_prep_command]
+22:34:18 00:05     [binary-prep-command]
+22:34:18 00:05     [py]
+                   pants_backend_python_tasks_python_binary_create_PythonBinaryCreate will read from local artifact cache at /Users/Nakis/sandbox/pex_example/.cache/6e36150417129a1c6401c71b6f956b490604057c
+22:34:18 00:05       [cache] 
+                   No cached artifacts for 1 target.
+                   Invalidated 1 target.
+                   cache for PythonBinary(BuildFileAddress(my_pkg/BUILD, my_pkg)) is invalid, rebuilding
+                   No customized shebang found for my_pkg
+                     Dumping sources: PythonBinary(BuildFileAddress(my_pkg/BUILD, my_pkg))
+                     Dumping sources: PythonLibrary(BuildFileAddress(my_pkg/BUILD, foobar))
+                     Dumping requirement: PythonRequirement(requests==2.18.4)
+                     Dumping requirement: PythonRequirement(shapely==1.6.4.post1)DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] Converted retries value: 5 -> Retry(total=5, connect=None, read=None, redirect=None, status=None)
+DEBUG] releasing lock: <pants.process.lock.OwnerPrintingInterProcessFileLock object at 0x112544e50>
+
+               Waiting for background workers to finish.
+22:34:24 00:11   [complete]
+               FAILURE
+Exception caught: (<class 'pex.resolver.Untranslateable'>)
+
+Exception message: Package SourcePackage(u'file:///Users/Nakis/sandbox/pex_example/.pants.d/python-setup/resolved_requirements/CPython-2.7.10/Shapely-1.6.4.post1.tar.gz') is not translateable by ChainedTranslator(WheelTranslator, EggTranslator, SourceTranslator)
+
